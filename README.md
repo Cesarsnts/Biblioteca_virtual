@@ -1,13 +1,12 @@
 # BIBLIOTECA VIRTUAL
 ## Como rodar backend 
+     ### 1. Escolha sua Stack (Linguagem e Fremework):
+     * Python: Django, Flask;
+     * JavaScript/TypeScript: Node.js com Express, NestJS;
+     * Java: Scring Boot;
+     * PHP: Laravel, Symfony.
      
-     ## 1. Escolha sua Stack (Linguagem e Fremework):
-           * Python: Django, Flask;
-           * JavaScript/TypeScript: Node.js com Express, NestJS;
-           * Java: Scring Boot;
-           * PHP: Laravel, Symfony.
-     
-     ## 2. Instale a Linguagem: 
+     #### 2. Instale a Linguagem: 
            * Tenha o Node.js, Python, Java (JDK), etc., instalados no seu computador;
            * Crie o projeto : Crie uma pasta para o seu backend;
                * Inicialize o projeto: 
