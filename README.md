@@ -1,5 +1,8 @@
-# BIBLIOTECA VIRTUAL
-## Como rodar backend 
+# 📖|BIBLIOTECA VIRTUAL 
+     
+     - A biblioteca virtual serve para tornar o acesso aos livros e materiais de estudo mais simples e rápido. Com ele, é possível pesquisar, ler e consultar conteúdos pela internet, sem precisar ir até uma biblioteca física. Além disso, o sistema ajuda a organizar o acervo e facilita a busca por informações, contribuindo para o aprendizado e o hábito da leitura de forma prática e acessível. 
+
+## Como rodar backend 💻
 
 ### 1. Escolha sua Stack (Linguagem e Fremework):
 - Python: Django, Flask;
@@ -27,6 +30,6 @@
 
 ### 5. Rode o Backend 
 - No terminal do projeto, execute npm start ou node index.js (se não tiver o script start).
-- 
+  
 
     
