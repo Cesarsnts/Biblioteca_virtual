@@ -1,11 +1,11 @@
 
-# 📖|BIBLIOTECA VIRTUAL 
+# BIBLIOTECA VIRTUAL 
      
 A biblioteca virtual serve para tornar o acesso aos livros e materiais de estudo mais simples e rápido. Com ele, é possível o 
 pesquisar, ler e consultar conteúdos pela internet, sem precisar ir até uma biblioteca física. Além disso, o sistema ajuda a organizar
 o acervo e facilita a busca por informações, contribuindo para o aprendizado e o hábito da leitura de forma prática e acessível. 
 
-## Como rodar backend 💻
+## Como rodar backend 
 
 ### 1. Escolha sua Stack (Linguagem e Fremework):
 - Python: Django, Flask;
