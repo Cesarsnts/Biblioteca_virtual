@@ -1,0 +1,128 @@
+📄 Divisão do Artigo Científico (30 pontos)
+👤 César
+
+Foco: Estrutura inicial + Metodologia técnica
+
+Responsabilidades (10 pts):
+
+Título do artigo
+
+Resumo
+
+Palavras-chave 👉 (B1 – 3 pts)
+
+Stack e ferramentas
+
+Front-end
+
+Back-end
+
+Persistência de dados
+
+Consumo da API 👉 (B2 – 4 pts)
+
+Apoiar na revisão técnica geral
+
+➡️ César fica como “base técnica” do artigo.
+
+👤 Lídia
+
+Foco: Introdução + organização do grupo
+
+Responsabilidades (10 pts):
+
+Introdução
+
+Contextualização do problema
+
+Justificativa
+
+Objetivo geral e específico bem claro 👉 (B1 – 4 pts)
+
+Divisão de tarefas do grupo
+
+Quem fez o quê
+
+Metodologia de trabalho (Git, reuniões, etc.) 👉 (B2 – 3 pts)
+
+Garantir texto fluido e bem escrito
+
+➡️ Lídia cuida da narrativa e organização.
+
+👤 Ezaely
+
+Foco: Endpoints + Evidências técnicas
+
+Responsabilidades (10 pts):
+
+Descrição dos endpoints
+
+Métodos (GET, POST, PUT, DELETE…)
+
+Rotas
+
+Validações principais 👉 (B2 – 3 pts)
+
+Exemplos de JSON
+
+Request
+
+Response 👉 (B3 – parte dos 6 pts)
+
+Revisar se as descrições estão objetivas e claras
+
+➡️ Ezaely fica com a parte mais técnica e prática da API.
+
+👤 Godofredo
+
+Foco: Evidências visuais + Conclusão
+
+Responsabilidades (10 pts):
+
+Prints do sistema funcionando
+
+Telas principais
+
+Fluxo básico 👉 (B3 – restante dos 6 pts)
+
+Conclusão
+
+Resultados alcançados
+
+Limitações do projeto
+
+Possíveis melhorias futuras 👉 (B1 – 3 pts)
+
+Referências
+
+2 a 4 fontes confiáveis (docs, artigos, sites oficiais) 👉 (B3 – 2 pts)
+
+➡️ Godofredo fecha o artigo com evidências + reflexão final.
+
+⭐ Bônus (até +5 pontos) — divisão sugerida
+
+Filtro por texto (+2): Ezaely
+
+Paginação ou ordenação (+2): César
+
+Padronização extra (lint/format) (+1): Godofredo
+
+Lídia revisa se o bônus está bem explicado no artigo.
+
+⚠️ Observação importante (pra não perder ponto)
+
+README funcionando → responsabilidade de todos, mas César revisa
+
+Prints e JSON não podem faltar
+
+Artigo deve ser texto corrido, não só tópicos
+
+Se quiser, eu posso:
+
+montar um modelo pronto do artigo já dividido por autor
+
+revisar o texto final simulando correção de professor
+
+adaptar essa divisão se o projeto for API, Web ou Mobile
+
+Só me dizer 😉
