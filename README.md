@@ -33,6 +33,19 @@ o acervo e facilita a busca por informações, contribuindo para o aprendizado e
 
 ### 5. Rode o Backend 
 - No terminal do projeto, execute npm start ou node index.js (se não tiver o script start).
-  
 
-    
+## Como rodar front end 
+
+### 1. Para projetos simples (HTML, CSS, Java Script):
+- *Abra o arquivo*: Clique com o botão direito no seu arquivo `index.html`;
+- Em seguida, selecione "Abrir com" > [Seu Navegador] ;
+- No VS Code, instale a extensão Live Server. Ela cria um servidor local que atualiza a página automaticamente ao salvar;
+- Este vídeo demonstra como rodar um projeto front-end simples com HTML/CSS/JS: https://youtu.be/MFTriNiKOLI.
+
+### 2. Para Projetos modernos (React, Vue, Vite, Tailwind, etc.):
+- Esses projetos exigem o ambiente Node.js instalado na máquina;
+- *Terminal*: Abra o terminal dentro da pasta do projeto no VS Code;
+- *Instale Dependências* : Execute o comando `npm install`ou `npm i` para baixar as bibliotecas necessárias;
+- *Rodar Servidor*: Execute `npm run dev` ou `npm start` para iniciar o servidor de desenvolvimento;
+- *Acessar*: O terminal indicará um endereço. geralmente `http://localhost:3000 `;
+- Este vídeo demonstra como rodar um projeto React e instalar de dependencias : https://youtu.be/_gHr2Pe5LCY
