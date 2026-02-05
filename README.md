@@ -53,22 +53,22 @@ o acervo e facilita a busca por informações, contribuindo para o aprendizado e
 ## Lista de endpoints 
 
 - GET /items
-Lista todos os livros cadastrados no sistema.
+ -> Lista todos os livros cadastrados no sistema.
 
 - GET /items?tipo=livro
-Lista os livros filtrando pelo tipo.
+-> Lista os livros filtrando pelo tipo.
 
 - GET /items?status=ativo
-Lista os livros filtrando pelo status (ativo, lido ou arquivado).
+-> Lista os livros filtrando pelo status (ativo, lido ou arquivado).
 
 - POST /items
-Cadastra um novo livro na biblioteca.
+-> Cadastra um novo livro na biblioteca.
 
 - PUT /items/{id}
-Atualiza todas as informações de um livro específico.
+-> Atualiza todas as informações de um livro específico.
 
 - PATCH /items/{id}/status
-Atualiza apenas o status de um livro.
+-> Atualiza apenas o status de um livro.
 
 - DELETE /items/{id}
-Remove um livro do sistema.
+-> Remove um livro do sistema.
