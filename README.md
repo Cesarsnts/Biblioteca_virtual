@@ -72,3 +72,29 @@ o acervo e facilita a busca por informações, contribuindo para o aprendizado e
 
 - DELETE /items/{id}
 -> Remove um livro do sistema.
+
+## Regras de Validação 
+
+- Regras de Validação do Sistema -> 
+Para garantir a integridade dos dados e o correto funcionamento do sistema de gestão de bibliotecas pessoais, foram implementadas regras de validação tanto no frontend quanto no backend, assegurando consistência das informações e melhor experiência ao usuário.
+
+- Validação do título -> 
+O campo título é obrigatório e deve conter, no mínimo, 3 (três) caracteres. Essa regra evita o cadastro de registros incompletos ou inválidos.
+
+- Validação do tipo -> 
+O campo tipo é obrigatório e aceita apenas o valor "livro", conforme a definição do escopo do sistema. Qualquer valor diferente é rejeitado pelo backend.
+
+- Validação do status -> 
+O campo status é obrigatório e deve assumir exclusivamente um dos seguintes valores: "ativo", "lido" ou "arquivado". Essa restrição garante a padronização do estado dos livros cadastrados.
+
+- Validação da data -> 
+Quando informada, a data associada ao livro deve seguir obrigatoriamente o formato YYYY-MM-DD. Datas em formatos diferentes são consideradas inválidas.
+
+- Validação de campos obrigatórios -> 
+Os campos essenciais para o cadastro de um livro (título, tipo e status) devem estar presentes na requisição. Caso algum deles esteja ausente, a operação é interrompida e uma mensagem de erro é retornada.
+
+- Validação do identificador (ID) -> 
+Para operações de atualização ou exclusão (PUT, PATCH e DELETE), o ID do livro deve existir no sistema. Caso contrário, a API retorna erro informando que o registro não foi encontrado.
+
+- Validação de dados duplicados -> 
+O sistema evita inconsistências ao garantir que cada livro possua um identificador único, impedindo conflitos durante as operações de leitura, atualização e remoção.
