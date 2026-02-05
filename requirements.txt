@@ -1,8 +1,8 @@
-blinker==1.9.0
-click==8.3.1
-colorama==0.4.6
-Flask==3.1.2
-itsdangerous==2.2.0
-Jinja2==3.1.6
-MarkupSafe==3.0.3
-Werkzeug==3.1.5
+echo Flask==3.1.2 > requirements.txt
+echo Jinja2==3.1.6 >> requirements.txt
+echo Werkzeug==3.1.5 >> requirements.txt
+echo itsdangerous==2.2.0 >> requirements.txt
+echo click==8.3.1 >> requirements.txt
+echo blinker==1.9.0 >> requirements.txt
+echo MarkupSafe==3.0.3 >> requirements.txt
+echo colorama==0.4.6 >> requirements.txt
